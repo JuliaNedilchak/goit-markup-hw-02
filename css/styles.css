@@ -16,13 +16,15 @@ header {
   color: var(--primary-white-color);
 }
 
-header .logo {
+header .logo,
+footer .logo {
   color: #000000;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
 }
-header .logo-part {
+header .logo-part,
+footer .logo-part {
   color: var(--accent-color);
   font-weight: 400;
   font-size: 26px;
@@ -90,5 +92,53 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+  color: var(--text-color);
+}
+.address-list .address:hover,
+.address-list .address:focus {
+  color: var(--accent-color);
+}
+.address-list .address-link:hover,
+.address-list .address-link:focus {
+  color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--primary-dark-color);
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.address-list .address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+.button-filters {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--title-color);
+}
+.button-filters:hover,
+.button-filters:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.title-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-color);
+}
+.text-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
   color: var(--text-color);
 }
