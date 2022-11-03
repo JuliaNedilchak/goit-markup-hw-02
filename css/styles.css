@@ -9,7 +9,6 @@
 }
 body {
   color: var(--secondary-white-color);
-  background-color: var(--background-white-color);
   font-family: 'roboto', sans-serif;
 }
 header {
@@ -18,24 +17,47 @@ header {
 
 header .logo,
 footer .logo {
-  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
 }
-header .logo-part,
-footer .logo-part {
-  color: var(--accent-color);
+header .part-head {
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.38;
 }
-.site-nav .site-nav-link,
-.contacts .contacts-details {
+footer .part-footer {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38;
+}
+.site-nav .site-nav-link {
+  list-style: none;
+  text-decoration: none;
   color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+}
+.contacts .contacts-details {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.site-nav .site-nav-link-active:active {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.site-nav .site-nav-link-active:hover,
+.site-nav .site-nav-link-active:focus {
+  color: var(--accent-color);
 }
 .site-nav .site-nav-link:hover,
 .site-nav .site-nav-link:focus {
@@ -53,6 +75,7 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
 }
 .button {
   font-weight: 700;
@@ -69,6 +92,7 @@ h1 {
   font-size: 14px;
   line-height: 1.17;
   color: var(--title-color);
+  text-transform: uppercase;
 }
 .advantages-text {
   font-weight: 400;
@@ -81,6 +105,9 @@ h1 {
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-color);
+}
+.work {
+  background-color: var(--background-white-color);
 }
 .collegue-name {
   font-weight: 500;
@@ -121,6 +148,7 @@ footer {
 }
 .button-filters {
   font-weight: 500;
+  font-family: 'roboto', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: var(--title-color);
@@ -141,4 +169,12 @@ footer {
   font-size: 16px;
   line-height: 1.8;
   color: var(--text-color);
+}
+.address-list .address {
+  text-decoration: none;
+  font-style: normal;
+}
+.address-list .address-link {
+  text-decoration: none;
+  font-style: normal;
 }
