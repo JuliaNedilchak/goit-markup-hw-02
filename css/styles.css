@@ -11,6 +11,14 @@ body {
   color: var(--secondary-white-color);
   font-family: 'roboto', sans-serif;
 }
+a {
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
 header {
   color: var(--primary-white-color);
 }
@@ -18,7 +26,6 @@ header {
 header .logo,
 footer .logo {
   font-family: 'Raleway', sans-serif;
-  text-decoration: none;
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
@@ -31,6 +38,7 @@ header .part-head {
   font-size: 26px;
   line-height: 1.38;
 }
+
 footer .part-footer {
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
@@ -39,29 +47,25 @@ footer .part-footer {
   line-height: 1.38;
 }
 .site-nav .site-nav-link {
-  list-style: none;
-  text-decoration: none;
   color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
 .contacts .contacts-details {
-  list-style: none;
-  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
   color: var(--text-color);
 }
-.site-nav .site-nav-link-active:active {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-.site-nav .site-nav-link-active:hover,
-.site-nav .site-nav-link-active:focus {
-  color: var(--accent-color);
-}
+
 .site-nav .site-nav-link:hover,
 .site-nav .site-nav-link:focus {
   color: var(--accent-color);
+}
+.active:active {
+  color: aqua;
+  font-size: 14px;
 }
 .contacts .contacts-details:hover,
 .contacts .contacts-details:focus {
@@ -84,6 +88,7 @@ h1 {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 .button {
   cursor: pointer;
 }
@@ -107,7 +112,7 @@ h1 {
   color: var(--title-color);
 }
 .work {
-  background-color: var(--background-white-color);
+  background-color: var(--secondary-white-color);
 }
 .collegue-name {
   font-weight: 500;
@@ -152,6 +157,7 @@ footer {
   font-size: 16px;
   line-height: 1.6;
   color: var(--title-color);
+  background-color: var(--secondary-white-color);
 }
 .button-filters:hover,
 .button-filters:focus {
@@ -170,11 +176,7 @@ footer {
   line-height: 1.8;
   color: var(--text-color);
 }
-.address-list .address {
-  text-decoration: none;
-  font-style: normal;
-}
+.address-list .address,
 .address-list .address-link {
-  text-decoration: none;
   font-style: normal;
 }
