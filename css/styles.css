@@ -63,8 +63,8 @@ footer .part-footer {
 .site-nav .site-nav-link:focus {
   color: var(--accent-color);
 }
-.active:active {
-  color: aqua;
+.site-nav .active {
+  color: var(--accent-color);
   font-size: 14px;
 }
 .contacts .contacts-details:hover,
